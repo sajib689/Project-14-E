@@ -47,6 +47,11 @@ button:hover{
     background-color: #3a3833;
 
 }
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: #fb774b;
+}
 .section-p1{
     padding: 30px 80px;
 }
@@ -193,5 +198,15 @@ button:hover{
 }
 .product:hover img {
     opacity: 0.7;
+}
+.product .buy-btn{
+    background: #fb774b;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 0.3s all;
+}
+.product:hover .buy-btn{
+    transform: translateY(0);
+    opacity: 1;
 }
 /* product section css end*/
