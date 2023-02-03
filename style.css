@@ -184,3 +184,14 @@ button:hover{
 }
 /* new section css end */
 /* home css end */
+/* product section css */
+.product{
+    cursor: pointer;
+}
+.product img {
+    transition: 0.3s all;
+}
+.product:hover img {
+    opacity: 0.7;
+}
+/* product section css end*/
