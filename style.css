@@ -209,4 +209,11 @@ hr{
     transform: translateY(0);
     opacity: 1;
 }
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
 /* product section css end*/
