@@ -27,7 +27,7 @@
                 <a class="nav-link " href="shop.html">Shop</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="blog.html">
+                <a class="nav-link " href="blog.html">
                   Blog
                 </a>
               </li>
@@ -41,7 +41,7 @@
                 <a class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
               </li>
               <li class="nav-item">
-                <a href="cart.html" class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="cart.html" class="nav-link active"><i class="fa-solid fa-cart-shopping"></i></a>
               </li>
             </ul>
           </div>
@@ -50,70 +50,81 @@
     <!-- navigation end -->
     <!-- blog home page -->
       <section id="blog-home" class="pt-5 mt-5 container">
-        <h1 class="font-weight-bold pt-5">Blogs</h1>
+        <h1 class="font-weight-bold pt-5">Shopping Cart</h1>
         <hr>
       </section>
-      <section id="blog-container" class="container pt-5">
+    <!-- blog home page end -->
+    <section id="cart-container" class="container my-5">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="./images/shoes/1.jpg" alt=""></td>
+                    <td><h5>Handbag Fringilla</h5></td>
+                    <td><h5>$65.00</h5></td>
+                    <td><input class="w-25 pl-1" type="number" value="1"></td>
+                    <td><h5>$130.00</h5></td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="./images/shoes/2.jpg" alt=""></td>
+                    <td><h5>Handbag Fringilla</h5></td>
+                    <td><h5>$65.00</h5></td>
+                    <td><input class="w-25 pl-1" type="number" value="1"></td>
+                    <td><h5>$130.00</h5></td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                    <td><img src="./images/shoes/3.jpg" alt=""></td>
+                    <td><h5>Handbag Fringilla</h5></td>
+                    <td><h5>$65.00</h5></td>
+                    <td><input class="w-25 pl-1" type="number" value="1"></td>
+                    <td><h5>$130.00</h5></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-bottom" class="container">
         <div class="row">
-            <div class="post col-lg-6 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/1.jpg" alt="">
-                </div>
-                <h3 class="text-center font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h3>
-                <p class="text-center">Jan 10, 2023</p>
-            </div>
-            <div class="post col-lg-6 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/2.jpg" alt="">
-                </div>
-                <h3 class="text-center font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h3>
-                <p class="text-center">Jan 10, 2023</p>
-            </div>
-            <div class="post col-lg-6 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/3.jpg" alt="">
-                </div>
-                <h3 class="text-center font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h3>
-                <p class="text-center">Jan 10, 2023</p>
-            </div>
-            <div class="post col-lg-6 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/4.jpg" alt="">
-                </div>
-                <h3 class="text-center font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h3>
-                <p class="text-center">Jan 10, 2023</p>
-            </div>
-            <!-- banner -->
-            <div class="col-lg-12 col-md-12 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/banner.webp" alt="">
+            <div class="coupon col-lg-6 col-md-6 col-12 mb-4">
+                <div>
+                    <h5 class="text-uppercase">Coupon</h5>
+                    <p>Enter you coupon code If you have one.</p>
+                    <input type="text" placeholder="Coupon Code">
+                    <button class="text-uppercase">Apply Coupon</button>
                 </div>
             </div>
-            <!-- banner end -->
-            <div class="post col-lg-4 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/1.webp" alt="">
+            <div class="total col-lg-6 col-md-6 col-12 mb-4">
+                <div>
+                    <h5 class="text-uppercase">Cart total</h5>
+                    <div class="d-flex justify-content-between">
+                        <h6>Subtotal</h6>
+                        <p>$125.00</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6>Shipping</h6>
+                        <p>$255.00</p>
+                    </div>
+                    <hr class="second-hr">
+                    <div class="d-flex justify-content-between">
+                        <h6>Total</h6>
+                        <p>$255.00</p>
+                    </div>
+                    <button class="text-uppercase ml-auto">processed to checkout</button>
                 </div>
-                <h4 class="font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h4>
-                
-            </div>
-            <div class="post col-lg-4 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/3.webp" alt="">
-                </div>
-                <h4 class="font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h4>
-                
-            </div>
-            <div class="post col-lg-4 col-md-6 col-12 pb-5">
-                <div class="post-img">
-                    <img class="img-fluid w-100" src="./images/blog/2.webp" alt="">
-                </div>
-                <h4 class="font-weight-normal pt-3">The best ways to change your summer wardrobe into autumn wardrobe.</h4>
-                
             </div>
         </div>
-      </section>
-    <!-- blog home page end -->
+    </section>
      <!-- footer section start -->
      <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
