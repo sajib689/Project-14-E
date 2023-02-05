@@ -304,3 +304,33 @@ footer .copyright a:hover{
     transition: 0.3s ease;
     cursor: pointer;
 }
+/* single product css */
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-group .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.sproduct select{
+    display: block;
+    padding: 5px 10px;
+}
+.sproduct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    
+}
+.sproduct input:focus{
+    outline: none;
+}
+.buy-btn{
+    background-color: #fb774b;
+    opacity: 1;
+    transition: 0.3s all;
+}
+/* single product css end */
