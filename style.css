@@ -290,8 +290,12 @@ footer .copyright a:hover{
     height: 350px;
     border-radius: 5px;
 }
+#pagination a{
+    color: #000;
+}
 #pagination > nav > ul > li.page-item.active > a{
     background-color: #1d1d1d;
+    color: #fff;
 }
 #pagination > nav > ul > li:nth-child(n):hover > a{
     background-color: coral;
